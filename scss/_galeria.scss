@@ -1,0 +1,28 @@
+/*Galeria*/
+
+.introGaleria {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-botones;
+    margin-bottom: 3rem;
+
+    h2 {
+        color: $color-fuentes;
+        font-size: 4rem;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+.imagenGaleria {
+    border-radius: 1rem;
+    padding: 0.4rem;
+    max-width: 100%;
+    filter: grayscale(50%);
+
+    &:hover {
+        filter: grayscale(0);
+    }
+}

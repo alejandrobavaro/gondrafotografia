@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+.protest-guerrilla-regular {
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Protest Guerrilla", sans-serif;
+  background-color: #161718;
+}
+
+.cormorant-garamond-light {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*Header*/
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  height: 10rem;
+}
+
+.tituloPrincipal {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 3rem;
+}
+.tituloPrincipal i {
+  font-size: 4rem;
+  color: #27a776;
+}
+.tituloPrincipal h1 {
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 3rem;
+}
+li a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 3rem;
+}
+li a:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*Hero*/
+.hero {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  display: inline-block;
+  color: #fafafa;
+  position: relative;
+}
+.hero h2 {
+  margin-bottom: 1rem;
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+.hero h2 span {
+  font-weight: 700;
+  padding: 0 5px;
+  position: relative;
+}
+.hero h2 span::before {
+  content: "";
+  background-color: #27a776;
+  position: absolute;
+  height: 30%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 4px;
+  z-index: -1;
+}
+.hero p {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+}
+.hero a {
+  background-color: #27a776;
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.hero a:hover {
+  background-color: #2cbc85;
+}
+
+/*Galeria*/
+.introGaleria {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #27a776;
+  margin-bottom: 3rem;
+}
+.introGaleria h2 {
+  color: #fafafa;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.imagenGaleria {
+  border-radius: 1rem;
+  padding: 0.4rem;
+  max-width: 100%;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  filter: grayscale(0);
+}
+
+/*Medias Queries*/
+@media (max-width: 767px) {
+  .tituloPrincipal h1 {
+    display: none;
+  }
+  .imagenGaleria {
+    max-width: 90%;
+    margin: auto;
+  }
+  .introGaleria {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

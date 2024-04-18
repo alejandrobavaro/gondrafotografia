@@ -1,0 +1,42 @@
+/*Header*/
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    height: 10rem;
+}
+
+.tituloPrincipal {
+    
+    @include anclas;
+
+    i {
+        font-size: 4rem;
+        color: $color-botones;
+    }
+
+    h1 {
+        display: inline-block;
+        font-size: 5rem;
+        font-weight: 500;
+    }
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 3rem;
+
+    a {
+        @include anclas;
+
+        &:hover {
+            color: $color-fuentes-sec;
+        }
+    }
+}

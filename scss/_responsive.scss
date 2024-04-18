@@ -1,0 +1,17 @@
+/*Medias Queries*/
+
+
+@media (max-width: 767px) {
+    .tituloPrincipal h1 {
+        display: none;
+    }
+
+    .imagenGaleria {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .introGaleria {
+        display: none;
+    }
+}

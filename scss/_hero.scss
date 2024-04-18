@@ -1,0 +1,54 @@
+/*Hero*/
+
+.hero {
+    width: 100%;
+    height: calc(100vh - 10rem);
+    display: inline-block;
+    color: $color-fuentes;
+    position: relative;
+
+    h2 {
+        margin-bottom: 1rem;
+        font-size: 3.8rem;
+        font-weight: 500;
+
+        span {
+            font-weight: 700;
+            padding: 0 5px;
+            position: relative;
+
+            &::before {
+                content: "";
+                background-color: $color-botones;
+                position: absolute;
+                height: 30%;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                border-radius: 4px;
+                z-index: -1;
+            }
+        }
+    }
+
+    p {
+        color:$color-fuentes-sec;
+        margin-bottom: 3rem;
+        font-size: 1.8rem;
+    }
+
+    a {
+        background-color: $color-botones;
+        text-decoration: none;
+        color: $color-fuentes;
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding: 0.5rem 1.5rem;
+        border-radius: 4px;
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: $color-botones-sec;
+        }
+    }
+}
