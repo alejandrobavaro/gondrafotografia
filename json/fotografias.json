@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "titulo": "Atardecer en la playa",
+      "descripcion": "Hermoso atardecer en la costa con colores vibrantes",
+      "autor": "Juan Pérez",
+      "url": "./img/08-fotografia/galeria-1.jpg",
+      "tipo": "paisaje"
+    },
+    {
+      "id": 2,
+      "titulo": "Retrato en blanco y negro",
+      "descripcion": "Retrato artístico en blanco y negro de una mujer",
+      "autor": "María López",
+      "url": "./img/08-fotografia/galeria-2.jpg",
+      "tipo": "retrato"
+    },
+    {
+      "id": 3,
+      "titulo": "Naturaleza exuberante",
+      "descripcion": "Imagen de un bosque exuberante en primavera",
+      "autor": "Carlos García",
+      "url": "./img/08-fotografia/galeria-3.jpg",
+      "tipo": "naturaleza"
+    },
+    {
+      "id": 4,
+      "titulo": "Ciudad nocturna",
+      "descripcion": "Vista de la ciudad iluminada durante la noche",
+      "autor": "Ana Martínez",
+      "url": "./img/08-fotografia/galeria-4.jpg",
+      "tipo": "urbano"
+    },
+    {
+      "id": 5,
+      "titulo": "Macrofotografía de flores",
+      "descripcion": "Detalle de flores en primer plano",
+      "autor": "Pedro Ruiz",
+      "url": "./img/08-fotografia/galeria-5.jpg",
+      "tipo": "macro"
+    },
+    {
+      "id": 6,
+      "titulo": "Arquitectura moderna",
+      "descripcion": "Edificio de diseño moderno con líneas limpias",
+      "autor": "Laura González",
+      "url": "./img/08-fotografia/galeria-6.jpg",
+      "tipo": "urbano"
+    },
+    {
+      "id": 7,
+      "titulo": "Paisaje montañoso",
+      "descripcion": "Vista panorámica de montañas cubiertas de nieve",
+      "autor": "Daniel Sánchez",
+      "url": "./img/08-fotografia/galeria-7.jpg",
+      "tipo": "paisaje"
+    },
+    {
+      "id": 8,
+      "titulo": "Fotografía abstracta",
+      "descripcion": "Composición abstracta de formas y colores",
+      "autor": "Lucía Torres",
+      "url": "./img/08-fotografia/galeria-8.jpg",
+      "tipo": "abstracto"
+       
+    }
+  ]
+  
