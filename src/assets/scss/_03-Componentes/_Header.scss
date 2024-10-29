@@ -1,0 +1,94 @@
+/* Asegúrate de que no haya margen o padding en el body y html */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Para manejar correctamente los bordes y paddings
+}
+
+/* Estilos del header */
+.header {
+  // background-color: rgba(0, 0, 0, 0.719);
+  background-image: url(../../../../img/00-fondos/IMG-20240401-WA0023.jpeg);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  // border-bottom: 5px dotted rgba(255, 238, 0, 0.5); // Mantener color sin variables
+  box-sizing: border-box; // Asegura que los bordes se manejen correctamente
+  
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .logoHeader {
+      max-width: 300px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px; // Ajusta el padding interno de la barra de navegación
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    font-size: large;
+
+
+    .nav-link {
+    font-weight: bolder;
+      color: #000000; // Texto blanco
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #464646; // Color primario sin variables
+      }
+    }
+  }
+
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .auth-icon {
+      color: #ae00ff; // Blanco
+  
+        transition: color 0.3s ease;
+
+      &:hover {
+        color: #8400ff; // Color de acento
+      }
+    }
+  }
+
+
+  .menu-icon {
+     font-size: x-large;
+    color: #a200ff; 
+    // border: #000000 dotted 1px;
+    border-radius: 50%;
+    padding: 0px;
+  }
+
+  .auth-welcome-container {
+    display: flex;
+    align-items: center;
+    color: #ae00ff; // Blanco
+    font-size: large;
+
+    }
+  }
+

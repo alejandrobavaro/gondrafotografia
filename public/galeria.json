@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "nombre": "Fotografía de Paisaje Montañoso",
+    "imagen portada": "/img/03-img-cuadradas/Designer (1).jpeg",
+    "tipo": "Naturaleza",
+    "categoria": "Paisajes",
+    "complejidad": "media",
+    "precio": "2500",
+    "disponibles": 50,
+    "descripcion": [
+      "Captura impresionante de un paisaje montañoso al atardecer.",
+      "Perfecta para decorar cualquier espacio."
+    ],
+    "imagenes": [
+      "/img/03-img-cuadradas/fotografia1-b.jpg",
+      "/img/03-img-cuadradas/fotografia1-c.jpg",
+      "/img/03-img-cuadradas/fotografia1-d.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Retrato en Blanco y Negro",
+    "imagen portada": "/img/03-img-cuadradas/Designer (2).jpeg",
+    "tipo": "Retrato",
+    "categoria": "Artística",
+    "complejidad": "alta",
+    "precio": "1800",
+    "disponibles": 75,
+    "descripcion": [
+      "Un retrato cautivador que resalta la belleza de las sombras y luces.",
+      "Ideal para galerías de arte y exposiciones."
+    ],
+    "imagenes": [
+      "/img/05-img-costados-larga/2.jpeg",
+      "/img/03-img-cuadradas/fotografia2-c.jpg",
+      "/img/03-img-cuadradas/fotografia2-d.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Fotografía de Fauna Silvestre",
+    "imagen portada": "/img/03-img-cuadradas/Designer (3).jpeg",
+    "tipo": "Naturaleza",
+    "categoria": "Animales",
+    "complejidad": "media",
+    "precio": "1200",
+    "disponibles": 40,
+    "descripcion": [
+      "Instantánea única de un ave en su hábitat natural.",
+      "Captura la esencia de la vida silvestre."
+    ],
+    "imagenes": [
+      "/img/03-img-cuadradas/fotografia3-b.jpg",
+      "/img/03-img-cuadradas/fotografia3-c.jpg",
+      "/img/03-img-cuadradas/fotografia3-d.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Fotografía de Ciudad Nocturna",
+    "imagen portada": "/img/05-img-costados-larga/0 - copia.jpeg",
+    "tipo": "Urbana",
+    "categoria": "Nocturna",
+    "complejidad": "alta",
+    "precio": "5200",
+    "disponibles": 20,
+    "descripcion": [
+      "Vista espectacular de la ciudad iluminada de noche.",
+      "Perfecta para coleccionistas y amantes de la fotografía urbana."
+    ],
+    "imagenes": [
+      "/img/03-img-cuadradas/fotografia4-b.jpg",
+      "/img/03-img-cuadradas/fotografia4-c.jpg",
+      "/img/03-img-cuadradas/fotografia4-d.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Fotografía Macro de Flores",
+    "imagen portada": "/img/05-img-costados-larga/8 - copia.jpeg",
+    "tipo": "Naturaleza",
+    "categoria": "Flora",
+    "complejidad": "baja",
+    "precio": "3500",
+    "disponibles": 30,
+    "descripcion": [
+      "Detalles impresionantes de una flor en plena floración.",
+      "Ideal para decorar espacios frescos y alegres."
+    ],
+    "imagenes": [
+      "/img/03-img-cuadradas/fotografia5-b.jpg",
+      "/img/03-img-cuadradas/fotografia5-c.jpg",
+      "/img/03-img-cuadradas/fotografia5-d.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Fotografía de Evento Familiar",
+    "imagen portada": "/img/05-img-costados-larga/26.jpeg",
+    "tipo": "Social",
+    "categoria": "Eventos",
+    "complejidad": "media",
+    "precio": "4500",
+    "disponibles": 25,
+    "descripcion": [
+      "Captura de momentos inolvidables en una reunión familiar.",
+      "Ideal para recordar momentos especiales."
+    ],
+    "imagenes": [
+      "/img/03-img-cuadradas/fotografia6-b.jpg",
+      "/img/03-img-cuadradas/fotografia6-c.jpg",
+      "/img/03-img-cuadradas/fotografia6-d.jpg"
+    ]
+  }
+]

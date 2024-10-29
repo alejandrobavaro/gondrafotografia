@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cámara Digital - Alta Resolución",
+    "precio": 45000,
+    "imagenes": [
+      "/img/06-tienda/tienda1-a.png",
+      "/img/06-tienda/tienda1-b.png",
+      "/img/06-tienda/tienda1-c.png",
+      "/img/06-tienda/tienda1-d.png"
+    ],
+    "categoria": "cámaras",
+    "descripcion": "Cámara digital de alta resolución, ideal para capturar momentos inolvidables."
+  },
+  {
+    "id": 2,
+    "nombre": "Trípode - Estable y Ligero",
+    "precio": 35000,
+    "imagenes": [
+      "/img/06-tienda/tienda2-a.png",
+      "/img/06-tienda/tienda2-b.png",
+      "/img/06-tienda/tienda2-c.png",
+      "/img/06-tienda/tienda2-d.png"
+    ],
+    "categoria": "accesorios",
+    "descripcion": "Trípode estable y ligero, perfecto para fotos y vídeos en cualquier lugar."
+  },
+  {
+    "id": 3,
+    "nombre": "Lente 50mm - Gran Apertura",
+    "precio": 28000,
+    "imagenes": [
+      "/img/06-tienda/tienda3-a.png",
+      "/img/06-tienda/tienda3-b.png",
+      "/img/06-tienda/tienda3-c.png",
+      "/img/06-tienda/tienda3-d.png"
+    ],
+    "categoria": "lentes",
+    "descripcion": "Lente de 50mm con gran apertura, ideal para retratos y fotos en condiciones de poca luz."
+  },
+  {
+    "id": 4,
+    "nombre": "Fondo Fotográfico - Textura Natural",
+    "precio": 30000,
+    "imagenes": [
+      "/img/06-tienda/tienda4-a.png",
+      "/img/06-tienda/tienda4-b.png",
+      "/img/06-tienda/tienda4-c.png",
+      "/img/06-tienda/tienda4-d.png"
+    ],
+    "categoria": "fondo",
+    "descripcion": "Fondo fotográfico con textura natural, ideal para sesiones de fotos profesionales."
+  },
+  {
+    "id": 5,
+    "nombre": "Flash Externo - Alta Potencia",
+    "precio": 90000,
+    "imagenes": [
+      "/img/06-tienda/tienda5-a.png",
+      "/img/06-tienda/tienda5-b.png",
+      "/img/06-tienda/tienda5-c.png",
+      "/img/06-tienda/tienda5-d.png"
+    ],
+    "categoria": "accesorios",
+    "descripcion": "Flash externo de alta potencia, perfecto para iluminar tus fotos en cualquier condición."
+  },
+  {
+    "id": 6,
+    "nombre": "Obra de Arte - Paisaje Abstracto",
+    "precio": 200000,
+    "imagenes": [
+      "/img/06-tienda/tienda6-a.png",
+      "/img/06-tienda/tienda6-b.png",
+      "/img/06-tienda/tienda6-c.png",
+      "/img/06-tienda/tienda6-d.png"
+    ],
+    "categoria": "arte",
+    "descripcion": "Pintura abstracta de paisaje, una pieza única para decorar cualquier espacio."
+  },
+  {
+    "id": 7,
+    "nombre": "Fotografía - Retrato en Blanco y Negro",
+    "precio": 50000,
+    "imagenes": [
+      "/img/06-tienda/tienda7-a.png",
+      "/img/06-tienda/tienda7-b.png",
+      "/img/06-tienda/tienda7-c.png",
+      "/img/06-tienda/tienda7-d.png"
+    ],
+    "categoria": "fotografía",
+    "descripcion": "Retrato en blanco y negro, capturando la esencia de la emoción humana."
+  },
+  {
+    "id": 8,
+    "nombre": "Obra de Arte - Naturaleza Muerta",
+    "precio": 75000,
+    "imagenes": [
+      "/img/06-tienda/tienda8-a.png",
+      "/img/06-tienda/tienda8-b.png",
+      "/img/06-tienda/tienda8-c.png",
+      "/img/06-tienda/tienda8-d.png"
+    ],
+    "categoria": "arte",
+    "descripcion": "Pintura de naturaleza muerta, ideal para coleccionistas y amantes del arte."
+  },
+  {
+    "id": 9,
+    "nombre": "Cámara Instantánea - Captura Rápida",
+    "precio": 300000,
+    "imagenes": [
+      "/img/06-tienda/tienda9-a.png",
+      "/img/06-tienda/tienda9-b.png",
+      "/img/06-tienda/tienda9-c.png",
+      "/img/06-tienda/tienda9-d.png"
+    ],
+    "categoria": "cámaras",
+    "descripcion": "Cámara instantánea que imprime tus fotos al instante, perfecta para eventos y fiestas."
+  },
+  {
+    "id": 10,
+    "nombre": "Maleta para Cámaras - Resistente al Agua",
+    "precio": 20000,
+    "imagenes": [
+      "/img/06-tienda/tienda10-a.png",
+      "/img/06-tienda/tienda10-b.png",
+      "/img/06-tienda/tienda10-c.png",
+      "/img/06-tienda/tienda10-d.png"
+    ],
+    "categoria": "accesorios",
+    "descripcion": "Maleta resistente al agua para cámaras, ideal para fotógrafos aventureros."
+  },
+  {
+    "id": 11,
+    "nombre": "Obra de Arte - Retrato Contemporáneo",
+    "precio": 40000,
+    "imagenes": [
+      "/img/06-tienda/tienda11-a.png",
+      "/img/06-tienda/tienda11-b.png",
+      "/img/06-tienda/tienda11-c.png",
+      "/img/06-tienda/tienda11-d.png"
+    ],
+    "categoria": "arte",
+    "descripcion": "Retrato contemporáneo, una pieza única que destaca la modernidad del arte."
+  },
+  {
+    "id": 12,
+    "nombre": "Impresora Fotográfica - Compacta y Portátil",
+    "precio": 55000,
+    "imagenes": [
+      "/img/06-tienda/tienda12-a.png",
+      "/img/06-tienda/tienda12-b.png",
+      "/img/06-tienda/tienda12-c.png",
+      "/img/06-tienda/tienda12-d.png"
+    ],
+    "categoria": "accesorios",
+    "descripcion": "Impresora fotográfica compacta y portátil, perfecta para imprimir tus mejores momentos."
+  },
+  {
+    "id": 13,
+    "nombre": "Lente Gran Angular - 18-55mm",
+    "precio": 22000,
+    "imagenes": [
+      "/img/06-tienda/tienda13-a.png",
+      "/img/06-tienda/tienda13-b.png",
+      "/img/06-tienda/tienda13-c.png",
+      "/img/06-tienda/tienda13-d.png"
+    ],
+    "categoria": "lentes",
+    "descripcion": "Lente gran angular de 18-55mm, ideal para paisajes y fotos de grupo."
+  },
+  {
+    "id": 14,
+    "nombre": "Obra de Arte - Escena Urbana",
+    "precio": 350000,
+    "imagenes": [
+      "/img/06-tienda/tienda14-a.png",
+      "/img/06-tienda/tienda14-b.png",
+      "/img/06-tienda/tienda14-c.png",
+      "/img/06-tienda/tienda14-d.png"
+    ],
+    "categoria": "arte",
+    "descripcion": "Pintura de una escena urbana, ideal para cualquier amante del arte contemporáneo."
+  },
+  {
+    "id": 15,
+    "nombre": "Libro de Fotografía - Técnicas y Estilos",
+    "precio": 15000,
+    "imagenes": [
+      "/img/06-tienda/tienda15-a.png",
+      "/img/06-tienda/tienda15-b.png",
+      "/img/06-tienda/tienda15-c.png",
+      "/img/06-tienda/tienda15-d.png"
+    ],
+    "categoria": "libros",
+    "descripcion": "Libro sobre técnicas y estilos de fotografía, perfecto para fotógrafos en desarrollo."
+  },
+  {
+    "id": 16,
+    "nombre": "Portafolio de Fotografías - Selección Exclusiva",
+    "precio": 28000,
+    "imagenes": [
+      "/img/06-tienda/tienda16-a.png",
+      "/img/06-tienda/tienda16-b.png",
+      "/img/06-tienda/tienda16-c.png",
+      "/img/06-tienda/tienda16-d.png"
+    ],
+    "categoria": "fotografía",
+    "descripcion": "Portafolio con selección exclusiva de fotografías, ideal para exhibiciones y coleccionistas."
+  },
+  {
+    "id": 17,
+    "nombre": "Cámara de Seguridad - Conectividad WiFi",
+    "precio": 85000,
+    "imagenes": [
+      "/img/06-tienda/tienda17-a.png",
+      "/img/06-tienda/tienda17-b.png",
+      "/img/06-tienda/tienda17-c.png",
+      "/img/06-tienda/tienda17-d.png"
+    ],
+    "categoria": "cámaras",
+    "descripcion": "Cámara de seguridad con conectividad WiFi, perfecta para monitorear tu hogar."
+  },
+  {
+    "id": 18,
+    "nombre": "Soporte para Teléfono - Versátil y Ajustable",
+    "precio": 18000,
+    "imagenes": [
+      "/img/06-tienda/tienda18-a.png",
+      "/img/06-tienda/tienda18-b.png",
+      "/img/06-tienda/tienda18-c.png",
+      "/img/06-tienda/tienda18-d.png"
+    ],
+    "categoria": "accesorios",
+    "descripcion": "Soporte versátil y ajustable para teléfonos, ideal para grabaciones y streaming."
+  }
+]
