@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "nombre": "Cámara Digital - Alta Resolución",
+    "nombre": "Cámara - Alta Resolución",
     "precio": 45000,
     "imagenes": [
       "/img/06-tienda/tienda1-a.png",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "nombre": "Fondo Fotográfico - Textura Natural",
+    "nombre": "Fondo Fotográfico - Chroma",
     "precio": 30000,
     "imagenes": [
       "/img/06-tienda/tienda4-a.png",
@@ -79,7 +79,7 @@
   },
   {
     "id": 7,
-    "nombre": "Fotografía - Retrato en Blanco y Negro",
+    "nombre": "Fotografía - Retrato en B&N",
     "precio": 50000,
     "imagenes": [
       "/img/06-tienda/tienda7-a.png",
@@ -88,11 +88,11 @@
       "/img/06-tienda/tienda7-d.png"
     ],
     "categoria": "fotografía",
-    "descripcion": "Retrato en blanco y negro, capturando la esencia de la emoción humana."
+    "descripcion": "Retrato en blanco y negro"
   },
   {
     "id": 8,
-    "nombre": "Obra de Arte - Naturaleza Muerta",
+    "nombre": "Obra de Arte",
     "precio": 75000,
     "imagenes": [
       "/img/06-tienda/tienda8-a.png",
@@ -105,7 +105,7 @@
   },
   {
     "id": 9,
-    "nombre": "Cámara Instantánea - Captura Rápida",
+    "nombre": "Cámara Instantánea",
     "precio": 300000,
     "imagenes": [
       "/img/06-tienda/tienda9-a.png",
@@ -118,7 +118,7 @@
   },
   {
     "id": 10,
-    "nombre": "Maleta para Cámaras - Resistente al Agua",
+    "nombre": "Maleta para Cámaras",
     "precio": 20000,
     "imagenes": [
       "/img/06-tienda/tienda10-a.png",
@@ -131,7 +131,7 @@
   },
   {
     "id": 11,
-    "nombre": "Obra de Arte - Retrato Contemporáneo",
+    "nombre": "Obra de Arte - Retrato",
     "precio": 40000,
     "imagenes": [
       "/img/06-tienda/tienda11-a.png",
@@ -144,7 +144,7 @@
   },
   {
     "id": 12,
-    "nombre": "Impresora Fotográfica - Compacta y Portátil",
+    "nombre": "Impresora Fotográfica",
     "precio": 55000,
     "imagenes": [
       "/img/06-tienda/tienda12-a.png",
@@ -183,7 +183,7 @@
   },
   {
     "id": 15,
-    "nombre": "Libro de Fotografía - Técnicas y Estilos",
+    "nombre": "Libro de Fotografía - Técnica",
     "precio": 15000,
     "imagenes": [
       "/img/06-tienda/tienda15-a.png",
@@ -193,44 +193,5 @@
     ],
     "categoria": "libros",
     "descripcion": "Libro sobre técnicas y estilos de fotografía, perfecto para fotógrafos en desarrollo."
-  },
-  {
-    "id": 16,
-    "nombre": "Portafolio de Fotografías - Selección Exclusiva",
-    "precio": 28000,
-    "imagenes": [
-      "/img/06-tienda/tienda16-a.png",
-      "/img/06-tienda/tienda16-b.png",
-      "/img/06-tienda/tienda16-c.png",
-      "/img/06-tienda/tienda16-d.png"
-    ],
-    "categoria": "fotografía",
-    "descripcion": "Portafolio con selección exclusiva de fotografías, ideal para exhibiciones y coleccionistas."
-  },
-  {
-    "id": 17,
-    "nombre": "Cámara de Seguridad - Conectividad WiFi",
-    "precio": 85000,
-    "imagenes": [
-      "/img/06-tienda/tienda17-a.png",
-      "/img/06-tienda/tienda17-b.png",
-      "/img/06-tienda/tienda17-c.png",
-      "/img/06-tienda/tienda17-d.png"
-    ],
-    "categoria": "cámaras",
-    "descripcion": "Cámara de seguridad con conectividad WiFi, perfecta para monitorear tu hogar."
-  },
-  {
-    "id": 18,
-    "nombre": "Soporte para Teléfono - Versátil y Ajustable",
-    "precio": 18000,
-    "imagenes": [
-      "/img/06-tienda/tienda18-a.png",
-      "/img/06-tienda/tienda18-b.png",
-      "/img/06-tienda/tienda18-c.png",
-      "/img/06-tienda/tienda18-d.png"
-    ],
-    "categoria": "accesorios",
-    "descripcion": "Soporte versátil y ajustable para teléfonos, ideal para grabaciones y streaming."
   }
 ]

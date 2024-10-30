@@ -2,10 +2,10 @@
   position: fixed;
   top: 10px; // Cambiado a la esquina superior
   right: 10px; // Asegura que esté en la esquina superior derecha
-  background: rgba(4, 25, 143, 0.788); // Color de fondo semi-transparente
-  border: #0127ff62 1px solid;
-  border-radius: 10px;
-  padding: 0 20px; // Reduce el padding para que ocupe menos espacio
+  background: rgba(0, 0, 0, 0.623); // Color de fondo semi-transparente
+  // border: #0127ff62 1px solid;
+  border-radius: 50px;
+  padding: 0 10px; // Reduce el padding para que ocupe menos espacio
   z-index: 1000;
   display: flex;
   flex-direction: row; // Cambia a fila
@@ -61,7 +61,7 @@
     .header-text {
       .texto-carrito {
         font-size: small;
-        color: #00e1ff;
+        color: #ffe1a0;
         font-weight: bold;
       }
 
@@ -82,7 +82,7 @@
       .tituloPrecioCarrito {
         font-size: medium;
         font-weight: bold;
-        color: #00ffff;
+        color: #ffe1a0;
       }
     }
   }

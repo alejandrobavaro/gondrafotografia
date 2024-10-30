@@ -1,105 +1,98 @@
-// Productos
+// Contenedor de productos
 .productos-container {
-  display: flex; // Cambiar a flex para que se alineen en fila
-  flex-wrap: wrap; // Permitir que los productos se envuelvan en filas
-  gap: 20px; // Espacio entre los productos
-  box-shadow: 0 0 100px rgba(174, 0, 255, 0.467);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px; // Espaciado reducido entre las tarjetas
+  box-shadow: 0 10px 30px rgb(255, 205, 148);
 }
 
+// Tarjeta de producto
 .producto-card {
-  flex: 1 1 calc(20% - 20px); // Ajustar el ancho de cada producto (20% menos el gap)
-  max-width: 200px; // Establecer un ancho máximo
-  background-color: #ffffff4b;
+  flex: 1 1 calc(20% - 15px); // Ajustar el ancho para reflejar el nuevo gap
+  max-width: 200px;
+  background-color: #000000cc;
   border-radius: 10px;
-  box-shadow: 0 0 40px rgba(255, 255, 255, 0.467);
-  padding: 15px;
+  padding: 12px; // Reducir el padding general
   text-align: center;
   position: relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgb(255, 205, 148);
+  }
 }
 
-.producto-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 40px rgba(236, 228, 255, 0.504);
-}
-
-// Mantener el resto de los estilos existentes
-
-
-// Productos
-.productos-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 2px;
-  box-shadow: 0 0 100px rgba(174, 0, 255, 0.467);
-}
-
-.producto-card {
-  background-color: #ffffff4b;
-  border-radius: 10px;
-  box-shadow: 0 0 40px rgba(255, 255, 255, 0.467);
-  padding: 15px;
-  text-align: center;
-  position: relative;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.producto-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 40px rgba(236, 228, 255, 0.504);
-}
-
+// Imagen del producto
 .producto-image {
   width: 100%;
   height: auto;
   cursor: pointer;
   border-radius: 8px;
   transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
-.producto-image:hover {
-  transform: scale(1.05);
-}
-
+// Título del producto
 .producto-title {
-  font-size: x-small; // Ajustado a un tamaño más pequeño
-  color: #ffffff !important;
-  margin: 10px 0;
 
+  font-size: x-small; // Tamaño ligeramente reducido
+  color: #000000;
+  margin: 4px 0; // Reducir margen vertical
 }
 
+// Categoría del producto
+.producto-category {
+  font-size: 0.85rem;
+  color: #000000;
+  margin: 3px 0; // Reducir margen
+}
+
+// Descripción del producto
+.producto-description {
+  box-shadow: 0 10px 30px rgb(255, 205, 148);
+  border-radius: 50%;
+  font-size: xx-small;
+  color: #000000;
+  margin: 6px 0; // Espacio reducido entre descripción y precio
+}
+
+// Precio del producto
 .producto-price {
-  font-size: 0.95rem; // Ajustado a un tamaño más pequeño
-  color: #ffffff !important;
-  margin-bottom: 10px;
-  text-transform: none; // Asegúrate de que no esté en mayúsculas
+  font-size: small;
+  color: #ffffff;
+  margin: 5px 0; // Reducir margen inferior
 }
 
+// Botón de compra
 .producto-button {
-  background-color: #020a7c71; // Rosa vibrante
+  background-color: #7c660288;
   border: none;
-  color: #ffffff; // Color blanco para el texto del botón
-  padding: 3px 6px; // Padding ajustado
-  border-radius: 50%; // Bordes redondeados
+  color: #ffffff;
+  padding: 4px 8px; // Ajuste en padding
+  border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  font-size: 0.85rem; // Tamaño de fuente ajustado
+  font-size: 0.8rem; // Tamaño de fuente ligeramente reducido
+
+  &:hover {
+    background-color: #ffd9006c;
+  }
 }
 
-.producto-button:hover {
-  background-color: #3b4197a2; // Rosa oscuro al pasar el ratón
-  transform: scale(1.05); // Escala al pasar el ratón
-}
-
+// Etiqueta de oferta
 .oferta-tag {
   position: absolute;
   top: 2px;
   right: 0px;
   background-color: #000000ab;
   color: #fff;
-  padding: 0px 2px;
+  padding: 1px 4px; // Reducir padding para ajustarse al nuevo estilo
   border-radius: 5px;
-  font-size: xx-small;
-  text-transform: none; // Asegúrate de que no esté en mayúsculas
+  font-size: x-small;
   z-index: 1000;
 }

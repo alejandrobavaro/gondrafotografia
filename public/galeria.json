@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Fotografía de Paisaje Montañoso",
-    "imagen portada": "/img/03-img-cuadradas/Designer (1).jpeg",
+    "imagen portada": "/img/03-img-cuadradas/Designer (1)a.jpeg",
     "tipo": "Naturaleza",
     "categoria": "Paisajes",
     "complejidad": "media",
@@ -13,15 +13,15 @@
       "Perfecta para decorar cualquier espacio."
     ],
     "imagenes": [
-      "/img/03-img-cuadradas/fotografia1-b.jpg",
-      "/img/03-img-cuadradas/fotografia1-c.jpg",
-      "/img/03-img-cuadradas/fotografia1-d.jpg"
+      "/img/03-img-cuadradas/Designer (1)b.jpeg",
+      "/img/03-img-cuadradas/Designer (1)c.jpeg",
+      "/img/03-img-cuadradas/Designer (1)d.jpeg"
     ]
   },
   {
     "id": 2,
     "nombre": "Retrato en Blanco y Negro",
-    "imagen portada": "/img/03-img-cuadradas/Designer (2).jpeg",
+    "imagen portada": "/img/03-img-cuadradas/Designer (2)a.jpeg",
     "tipo": "Retrato",
     "categoria": "Artística",
     "complejidad": "alta",
@@ -32,34 +32,34 @@
       "Ideal para galerías de arte y exposiciones."
     ],
     "imagenes": [
-      "/img/05-img-costados-larga/2.jpeg",
-      "/img/03-img-cuadradas/fotografia2-c.jpg",
-      "/img/03-img-cuadradas/fotografia2-d.jpg"
+      "/img/03-img-cuadradas/Designer (2)b.jpeg",
+      "/img/03-img-cuadradas/Designer (2)c.jpeg",
+      "/img/03-img-cuadradas/Designer (2)d.jpeg"
     ]
   },
   {
     "id": 3,
-    "nombre": "Fotografía de Fauna Silvestre",
-    "imagen portada": "/img/03-img-cuadradas/Designer (3).jpeg",
+    "nombre": "Fotografía de Parejas",
+    "imagen portada": "/img/03-img-cuadradas/Designer (3)a.jpeg",
     "tipo": "Naturaleza",
     "categoria": "Animales",
     "complejidad": "media",
     "precio": "1200",
     "disponibles": 40,
     "descripcion": [
-      "Instantánea única de un ave en su hábitat natural.",
+      "Parejas caminando de la mano.",
       "Captura la esencia de la vida silvestre."
     ],
     "imagenes": [
-      "/img/03-img-cuadradas/fotografia3-b.jpg",
-      "/img/03-img-cuadradas/fotografia3-c.jpg",
-      "/img/03-img-cuadradas/fotografia3-d.jpg"
+      "/img/03-img-cuadradas/Designer (3)b.jpeg",
+      "/img/03-img-cuadradas/Designer (3)c.jpeg",
+      "/img/03-img-cuadradas/Designer (3)d.jpeg"
     ]
   },
   {
     "id": 4,
     "nombre": "Fotografía de Ciudad Nocturna",
-    "imagen portada": "/img/05-img-costados-larga/0 - copia.jpeg",
+    "imagen portada": "/img/03-img-cuadradas/Designer (4)a.jpeg",
     "tipo": "Urbana",
     "categoria": "Nocturna",
     "complejidad": "alta",
@@ -70,47 +70,47 @@
       "Perfecta para coleccionistas y amantes de la fotografía urbana."
     ],
     "imagenes": [
-      "/img/03-img-cuadradas/fotografia4-b.jpg",
-      "/img/03-img-cuadradas/fotografia4-c.jpg",
-      "/img/03-img-cuadradas/fotografia4-d.jpg"
+      "/img/03-img-cuadradas/Designer (4)b.jpeg",
+      "/img/03-img-cuadradas/Designer (4)c.jpeg",
+      "/img/03-img-cuadradas/Designer (4)d.jpeg"
     ]
   },
   {
     "id": 5,
-    "nombre": "Fotografía Macro de Flores",
-    "imagen portada": "/img/05-img-costados-larga/8 - copia.jpeg",
+    "nombre": "Fotografía Macro de Texturas",
+    "imagen portada": "/img/03-img-cuadradas/Designer (5)a.jpeg",
     "tipo": "Naturaleza",
     "categoria": "Flora",
     "complejidad": "baja",
     "precio": "3500",
     "disponibles": 30,
     "descripcion": [
-      "Detalles impresionantes de una flor en plena floración.",
+      "Detalles impresionantes.",
       "Ideal para decorar espacios frescos y alegres."
     ],
     "imagenes": [
-      "/img/03-img-cuadradas/fotografia5-b.jpg",
-      "/img/03-img-cuadradas/fotografia5-c.jpg",
-      "/img/03-img-cuadradas/fotografia5-d.jpg"
+      "/img/03-img-cuadradas/Designer (5)b.jpeg",
+      "/img/03-img-cuadradas/Designer (5)c.jpeg",
+      "/img/03-img-cuadradas/Designer (5)d.jpeg"
     ]
   },
   {
     "id": 6,
-    "nombre": "Fotografía de Evento Familiar",
-    "imagen portada": "/img/05-img-costados-larga/26.jpeg",
+    "nombre": "Fotografía de Evento",
+    "imagen portada": "/img/03-img-cuadradas/Designer (6)a.jpeg",
     "tipo": "Social",
     "categoria": "Eventos",
     "complejidad": "media",
     "precio": "4500",
     "disponibles": 25,
     "descripcion": [
-      "Captura de momentos inolvidables en una reunión familiar.",
+      "Captura de momentos inolvidables.",
       "Ideal para recordar momentos especiales."
     ],
     "imagenes": [
-      "/img/03-img-cuadradas/fotografia6-b.jpg",
-      "/img/03-img-cuadradas/fotografia6-c.jpg",
-      "/img/03-img-cuadradas/fotografia6-d.jpg"
+      "/img/03-img-cuadradas/Designer (6)b.jpeg",
+      "/img/03-img-cuadradas/Designer (6)c.jpeg",
+      "/img/03-img-cuadradas/Designer (6)d.jpeg"
     ]
   }
 ]

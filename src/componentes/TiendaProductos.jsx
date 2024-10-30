@@ -35,20 +35,29 @@ function TiendaProductos({ products, addToCart, handleShowDetalle, searchQuery, 
         <div key={product.id} className="producto-card">
           {ofertas.includes(product.id) && (
             <div className="oferta-tag">Oferta 30%</div>
-          )}
+          )} 
+          <h5 className="producto-title">{product.nombre}</h5>
+         
           <img
             src={product.imagenes[0]}
             alt={product.nombre}
             className="producto-image"
             onClick={() => openImageModal(product.imagenes, 0)}
           />
-          <h5 className="producto-title">{product.nombre}</h5>
-          <h4 className="producto-price">Precio: ${product.precio.toFixed(2)}</h4>
+          
+            {/* <p className="producto-category">{product.categoria}</p>
+         */}
+             <hr />
+         <h4 className="producto-price"> ${product.precio.toFixed(2)}</h4>
+      
+          <p className="producto-description">{product.descripcion}</p>
+      
+          <hr />
           <button
             className="producto-button"
             onClick={() => addToCart(product)}
           >
-           Comprar
+            Comprar
           </button>
         </div>
       ))}

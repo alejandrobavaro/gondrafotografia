@@ -18,7 +18,7 @@ const TiendaModalInicio = ({ showModal, closeModal }) => {
           &times; {/* Carácter '×' para cerrar */}
         </button>
         <div className="tienda-modal-content">
-          <h2>Personalizate!</h2>
+          {/* <h2>Personalizate!</h2> */}
           <p className="tienda-tituloImportante">Aprovechá estos beneficios!</p>
           <div className="tienda-promo-list">
             <div className="tienda-promo-item tienda-detalleBlanco">Super Ofertas!</div>

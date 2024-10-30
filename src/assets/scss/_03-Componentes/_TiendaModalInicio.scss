@@ -34,7 +34,7 @@ body.modal-open {
 }
 
 .tienda-modal-wrapper {
-  background: #4300af33;
+  // background: #7a6a2233;
   padding: 10px;
   border-radius: 20px;
   position: relative;
@@ -62,7 +62,7 @@ body.modal-open {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #4c00ff46; 
+  background-color: #a0985146; 
   color: #ffffff;
   border: none;
   border-radius: 50%;
@@ -102,11 +102,11 @@ body.modal-open {
     background-color: transparent; /* Fondo transparente para los items de promoción */
     color: #ffffff; /* Texto rosa */
     padding: 10px;
-    border: dotted 2px rgba(189, 0, 247, 0.863);
+    // border: dotted 2px rgba(189, 0, 247, 0.863);
     margin-bottom: 10px;
-    border-radius: 50%; /* Bordes redondeados */
+    border-radius: 50px; /* Bordes redondeados */
     /* Elimina cualquier sombra */
-    box-shadow: none;
+    box-shadow: 0 10px 30px rgb(255, 205, 148); // Sombra más intensa
   }
   
   .tienda-detalleBlanco {
@@ -116,7 +116,7 @@ body.modal-open {
 }
 
 .tienda-btn-primary {
-  background-color: #0130ff50; /* Rosa vibrante */
+  background-color: #fff27d50; /* Rosa vibrante */
   border: none;
   color: #fff; /* Color blanco para el texto del botón */
   padding: 12px 24px; /* Padding más amplio */
@@ -129,7 +129,7 @@ body.modal-open {
 }
 
 .tienda-btn-primary:hover {
-  background-color: #a647ff; /* Rosa oscuro al pasar el ratón */
+  background-color: #ffedb1; /* Rosa oscuro al pasar el ratón */
   transform: scale(1.05); /* Escala al pasar el ratón */
 }
 
@@ -148,12 +148,12 @@ body.modal-open {
 // Animación para el borde del contenedor
 @keyframes pulse {
   0% {
-    border-color: #69c8ff;
+    border-color: #ffe9d4;
   }
   50% {
     border-color: #bbbcf8;
   }
   100% {
-    border-color: #6978ff;
+    border-color: #fffff0;
   }
 }

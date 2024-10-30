@@ -11,7 +11,7 @@
 
   &:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 25px rgba(136, 99, 99, 0.2);
+    box-shadow: 0 10px 30px rgb(255, 205, 148); // Sombra más intensa
   }
 }
 
@@ -41,8 +41,8 @@
 }
 
 .producto-price {
-  font-size: 1.1rem;
-  color: #ff01dd;
+  font-size: x-small;
+  color: #ff9901;
   margin: 10px 0;
 }
 
@@ -56,6 +56,6 @@
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: #d81b89;
+    background-color: #d8cb1b;
   }
 }
