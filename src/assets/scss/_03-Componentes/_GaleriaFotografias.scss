@@ -83,12 +83,16 @@
 
     .carousel-image {
       width: 100%;
+      height: auto;
       border-radius: 5px;
-      max-height: auto;
       object-fit: cover;
 
+      @media (max-width: 1024px) {
+        max-height: 250px;
+      }
+
       @media (max-width: 600px) {
-        max-height: 70px;
+        max-height: 200px;
       }
     }
 
@@ -111,22 +115,27 @@
 
     .slick-slider {
       width: 100%;
-      
-      @media (max-width: 600px) {
-        .slick-list {
-          padding: 0;
+
+      .slick-list {
+        padding: 0;
+      }
+
+      .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .carousel-image {
+        width: 100%;
+        object-fit: cover;
+
+        @media (max-width: 1024px) {
+          max-height: 700px;
         }
 
-        .slick-slide {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        .carousel-image {
-          max-height: 150px;
-          width: 100%;
-          object-fit: cover;
+        @media (max-width: 600px) {
+          max-height: 400px;
         }
       }
     }
