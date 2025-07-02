@@ -8,7 +8,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(131, 80, 165, 0.938);
+  background: rgba(0, 0, 0, 0.85); // Fondo oscuro como en productos
   z-index: 1000;
 }
 
@@ -17,110 +17,93 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
 
   .auth-content {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: rgba(132, 0, 255, 0.308);
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0 0 40px rgba(238, 182, 255, 0.7); // Neón amarillo
+    background: rgba(0, 0, 0, 0.8); // Fondo oscuro
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgb(255, 205, 148); // Sombra similar a producto-card
     text-align: center;
-    max-width: 800px;
+    max-width: 350px;
     width: 100%;
     position: relative;
-   
+    gap: 10px;
 
-    //---------imagen de autenticación--------------------//
     .auth-image {
-      width: 50px;
+      width: 70px;
       height: auto;
       margin: 1rem 0;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      filter: drop-shadow(0px 0px 8px #cb94ff); 
+      transition: transform 0.3s ease;
+      filter: drop-shadow(0 0 8px #cb94ff); 
 
       &:hover {
         transform: scale(1.1);
       }
     }
 
-    //---------formulario de autenticación--------------------//
     .auth-form {
-      flex: 1;
       width: 100%;
 
       h2 {
-        margin-bottom: 1.5rem;
-        color: #ebd3ff; 
-        text-transform: none;
-        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        color: #ffd900;
+        font-size: 1.5rem;
       }
 
       input {
         width: 100%;
-        padding: 0.75rem;
-        margin-bottom: 1rem;
-        border: 3px solid #ffffff7e; // Neón rosa
-        border-radius: 4px;
-        box-sizing: border-box;
-        background-color: rgba(255, 255, 255, 0.8);
-        color: #000000;
-    
+        padding: 0.6rem;
+        margin-bottom: 0.8rem;
+        border: 2px solid #ffd9006c;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.85);
+        color: #000;
+        transition: box-shadow 0.3s ease;
 
         &:focus {
           outline: none;
-          border-color: #e89cff; 
-          box-shadow: 0 0 8px #e3a8ff;
+          border-color: #ffd900;
+          box-shadow: 0 0 8px #ffd900;
         }
       }
 
       button {
         width: 100%;
-        padding: 0.75rem;
-        background-color: #ffffff62; // Neón rosa
+        padding: 0.6rem;
+        background-color: #7c660288;
         border: none;
-        border-radius: 5px;
-        color: #ffffff;
-        font-size: 1.2rem;
+        border-radius: 50px;
+        color: #fff;
+        font-size: 1rem;
         cursor: pointer;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        text-transform: none;
+        transition: background-color 0.3s ease, transform 0.2s ease;
 
         &:hover {
-          background-color: #7200a7;
+          background-color: #ffd9006c;
+          transform: scale(1.05);
         }
       }
     }
 
-    //---------enlaces de autenticación--------------------//
     .auth-links {
-      margin-top: 1rem;
+      margin-top: 0.8rem;
 
       p {
-        color: #ffffff;
-        font-size: 0.9rem;
+        color: #fff;
+        font-size: 0.85rem;
 
         a {
-          color: #d096ff;  
+          color: #ffd900;
           text-decoration: none;
-          transition: color 0.3s ease;
 
           &:hover {
-            color: #c88dff;
+            color: #fff;
           }
         }
-      }
-    }
-
-    @media (min-width: 768px) {
-      flex-direction: row; // Volver a la dirección de fila en pantallas grandes
-
-      .auth-image {
-        margin: 20px;
-        border-radius: 50px;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.467);
       }
     }
   }
@@ -139,16 +122,12 @@
     height: 60px;
     border: 8px solid rgba(30, 4, 78, 0.2);
     border-radius: 50%;
-    border-top: 8px solid #9900ff; // Neón rosa
+    border-top: 8px solid #9900ff;
     animation: spin 1.5s linear infinite;
   }
 
   @keyframes spin {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
 }
